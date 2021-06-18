@@ -90,6 +90,6 @@ we caluculated based on below rules
 - 2.5 US tons = 2,267.96185 kilograms of CO2/year - average.
 - 3.3 US tons = 2,993.70964 kilograms of CO2/year - meat lover.
 ### Amazon supply chain:
-- 0.1289 kg CO2e per dollar (USD).
+- 0.1289 kg CO2e per rupee.
 - 3,300,000 boxes/day13 * 365 days/year / 325,000,000 Indian = 3.70 boxes/Indian.
-- 3.70 boxes/year * ₹47 / box = ~₹173.90/year * 0.1289 kg / ₹1 USD= 22.41 kg CO2/year.
+- 3.70 boxes/year * ₹47 / box = ~₹173.90/year * 0.1289 kg / ₹1 = 22.41 kg CO2/year.
