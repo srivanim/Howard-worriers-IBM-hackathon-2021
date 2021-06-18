@@ -21,7 +21,8 @@
 
 ## Demo video
 
-[![Watch the video](https://youtube.com/watch?v=LIcvk_lFM2o&feature=share)
+https://youtube.com/watch?v=LIcvk_lFM2o&feature=share
+
 
 ## Image
 
