@@ -1,5 +1,5 @@
 # CarbonFootprint
-![](https://github.com/srivanim/Howard-worriers-IBM-hackathon-2021/src/assets/logo.png)
+![](https://github.com/srivanim/howard-worriers-IBM-hackathon-2021/blob/master/src/assets/logo.png)
 
 Caluculate your carbon footprint easily using this applications
 
