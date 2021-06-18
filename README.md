@@ -77,7 +77,7 @@ we caluculated based on below rules
 - Assume 0.1304 kgCO2/km for medium-term flights (DEFRA model).
 - Domestic flights ~2.5-3 hr, 2200km * 0.1304 kgCO2/km * 2.1 trips = 602.448 kg CO2/yr.
 ### Transportation:
-- Average American drives around 15,000 per year (assume this is all forms of ground transport).
+- Average Indian drives around 15,000 per year (assume this is all forms of ground transport).
 - Fuel efficiency on car - assume 30 mpg on road car now.
 - 0.960 pounds = 0.435 kg CO2 per mile (driving) * 15,000 miles/year = 6,525.0 kg CO2 / year. 
 - 0.657 pounds = 0.298 kg of CO2 per mile - 50% public transport, 50% single auto * 15,000 miles/year = 4470.0 kg CO2 /year.
@@ -91,5 +91,5 @@ we caluculated based on below rules
 - 3.3 US tons = 2,993.70964 kilograms of CO2/year - meat lover.
 ### Amazon supply chain:
 - 0.1289 kg CO2e per dollar (USD).
-- 3,300,000 boxes/day13 * 365 days/year / 325,000,000 Americans = 3.70 boxes/American.
+- 3,300,000 boxes/day13 * 365 days/year / 325,000,000 Indian = 3.70 boxes/Indian.
 - 3.70 boxes/year * ₹47 / box = ~₹173.90/year * 0.1289 kg / ₹1 USD= 22.41 kg CO2/year.
