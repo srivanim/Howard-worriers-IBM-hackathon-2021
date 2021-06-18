@@ -11,7 +11,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 First, clone this repository
 ```
-git clone https://github.com/srivanim/Howard-worriers-IBM-hackathon-2021.git
+git clone https://github.com/srivanim/howard-worriers-IBM-hackathon-2021.git
 ```
 Now install all the dependies:
 
