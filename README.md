@@ -73,7 +73,7 @@ we caluculated based on below rules
 - the U.S. average is 13.27 cents per kilowatt hour (kwh), 0.62 kilogramCO2 / kwh.
 - 11,698 kwh/year * 0.62 kgCO2/kwh = 7,252.76 kg CO2/year.
 ### Flights per year:
-- Flights per year - average is 2.1 trips per American (if fly).
+- Flights per year - average is 2.1 trips per Indian (if fly).
 - Assume 0.1304 kgCO2/km for medium-term flights (DEFRA model).
 - Domestic flights ~2.5-3 hr, 2200km * 0.1304 kgCO2/km * 2.1 trips = 602.448 kg CO2/yr.
 ### Transportation:
@@ -83,7 +83,7 @@ we caluculated based on below rules
 - 0.657 pounds = 0.298 kg of CO2 per mile - 50% public transport, 50% single auto * 15,000 miles/year = 4470.0 kg CO2 /year.
 - 0.354 pounds = 0.161 kg of CO2 per mile (public transportation) * 15,000 miles / year = 2,415.0 kg CO2 / year.
 ### Uber trips:
-- (14 uber million trips / day * 0.50)9 / 325 million people (USA) * 365 days / year = 7.86 rides/person in the USA (assumes 50% of all uber rides are in the USA).
+- (14 uber million trips / day * 0.50)9 / 325 million people (India) * 365 days / year = 7.86 rides/person in the India (assumes 50% of all uber rides are in the USA).
 - Average ride length = 6 miles/trip * 7.86 trips / person / year * 0.960 kgCo2/mile = 45.27 kg Co2/uber rider/year.
 ### Food choices / nutrition:
 - 1.7 US tons = 1,542.21406 kilograms of CO2/year - vegetarian.
@@ -92,4 +92,4 @@ we caluculated based on below rules
 ### Amazon supply chain:
 - 0.1289 kg CO2e per dollar (USD).
 - 3,300,000 boxes/day13 * 365 days/year / 325,000,000 Americans = 3.70 boxes/American.
-- 3.70 boxes/year * $47 / box = ~$173.90/year * 0.1289 kg / $1 USD= 22.41 kg CO2/year.
+- 3.70 boxes/year * ₹47 / box = ~₹173.90/year * 0.1289 kg / ₹1 USD= 22.41 kg CO2/year.
