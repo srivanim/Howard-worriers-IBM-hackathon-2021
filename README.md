@@ -1,41 +1,40 @@
 # CarbonFootprint
+
+## Short description
+
+### What's the problem?
+
+
+- The current trends in climate change and environmental degradation at a global level, require us to take drastic steps towards environmental preservation. This includes work at an individual level to reduce one’s own carbon footprint and move towards eco friendly alternatives. 
+- Its high time to take matter into your own hands and go green!
+- The IEA's Global Energy Review 2021 estimates that CO2 emissions will increase by almost 5% this year to 33 billion tons
+
+
+### How can technology help?
+- An eco-friendly application that will monitor your lifestyle to send you to the right path towards a greener and healthier world!
+
+
+
+### The idea
+
+- Firmly plant your carbon footprint
+
+## Demo video
+
+[![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)[![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+
+## Image
+
 ![](https://github.com/srivanim/howard-worriers-IBM-hackathon-2021/blob/master/src/assets/logo.png)
 
-Caluculate your carbon footprint easily using this applications
+## Long description
 
-built by [Optum] the world's leading health care provider
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
-
-## Gtting startted
-
-First, clone this repository
-```
-git clone https://github.com/srivanim/howard-worriers-IBM-hackathon-2021.git
-```
-Now install all the dependies:
-
-```
-npm install
-```
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- As there is rise in the Global temeperatures by 2 Degree because of the amount of carbon dioxide and 
+- other carbon compounds emitted due to the consumption of fossil fuels by a particular person, group, etc.
+- So as the global goal Carbon foot print needs to drop by 2tons till 2050.
+- solution :- So we have created the carbon footprint Monitor and Recommendation application this will help us to calculate the carbon emission through various resources.As there is rise in the Global temeperatures by 2 Degree because of the amount of carbon dioxide and 
+                                                                                                                                                                        
 
 ## Further help
 
