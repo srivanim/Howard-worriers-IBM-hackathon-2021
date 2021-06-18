@@ -1,0 +1,251 @@
+<div class="survey">
+  <div class="news-feed">
+    <h3 class="rec-h3">News Feed</h3>
+    <ngb-carousel [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img src="" alt="" class="hide">
+          <div class="card">
+            <div class="card-body">
+              <p>
+                New method to calculate carbon footprint of logistics supply chains.
+                Vadodara: Youths cut carbon footprint by composting food.
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-caption">
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img src="" alt="" class="hide">
+          <div class="card">
+            <div class="card-body">
+              <p>SPPU vision spans courses to carbon footprint stretch
+                (<a href="https://timesofindia.indiatimes.com/city/pune/for-pune-varsity-vision-for-change-spans-relevant-courses-to-carbon-footprint-spectrum/articleshow/83494104.cms#:~:text=The%20plan%20includes%20reducing%20carbon,e%2Dlearning%20and%20assessment%20portal">
+                  https://timesofindia.indiatimes.com/city/pune/for-pune-varsity-vision-for-change-spans-relevant-courses-to-carbon-footprint-spectrum/articleshow/83494104.cms#:~:text=The%20plan%20includes%20reducing%20carbon,e%2Dlearning%20and%20assessment%20portal
+                </a>)<br/>
+                Switch to Green Cement for a Better Tomorrow (<a href="https://timesofindia.indiatimes.com/business/india-business/switch-to-green-cement-for-a-better-tomorrow/articleshow/83337585.cms">
+                  https://timesofindia.indiatimes.com/business/india-business/switch-to-green-cement-for-a-better-tomorrow/articleshow/83337585.cms
+                  </a>)
+              </p>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-caption">
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img src="" alt="" class="hide">
+          <div class="card">
+            <div class="card-body">
+              <p>
+                Tata Power gives push to Green Energy, provides (
+                <a href="http://timesofindia.indiatimes.com/articleshow/83310881.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppsthttps://timesofindia.indiatimes.com/business/india-business/tata-power-gives-push-to-green-energy-provides-it-to-37-high-end-consumers/articleshow/83310881.cms">
+                http://timesofindia.indiatimes.com/articleshow/83310881.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppsthttps://timesofindia.indiatimes.com/business/india-business/tata-power-gives-push-to-green-energy-provides-it-to-37-high-end-consumers/articleshow/83310881.cms
+                </a>)
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-caption">
+        </div>
+      </ng-template>
+    </ngb-carousel>
+
+  </div>
+
+  <div class="footprint-calculator">
+    <h3 class="cal-h3">Your Carbon Footprint Calculator</h3>
+    <form [formGroup]="footPrintForm" >
+    <div class="container-fluid tabs">
+      <div class="row">
+        <div class="col-md-12 col-lg-12">
+          <ngb-tabset [destroyOnHide]="false">
+            <ngb-tab>
+              <ng-template ngbTabTitle><strong>Home Energy</strong></ng-template>
+              <ng-template ngbTabContent>
+                <!--<ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+                  <ngb-panel>
+                    <ng-template ngbPanelTitle>
+                      <strong>Home Energy</strong>
+                    <ng-template ngbPanelContent></ng-template>
+                    -->
+                <div class="row">
+                  <div class="col-md-12 col-lg-12">
+                    <div class="mb-3">
+                      <label for="household" class="form-label">How many people are in your household? (e.g. 2)</label>
+                      <input type="text" class="form-control" id="household" formControlName="household" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="household" class="form-label">What is your electric bill (in rupees) monthly?  (e.g. 50)</label>
+                      <input type="text" class="form-control" id="electricityBill" formControlName="electricityBill" aria-describedby="emailHelp">
+                    </div>
+                  </div>
+                </div>
+
+
+                <!--
+                </ng-template>
+                </ngb-panel>
+              </ngb-accordion>-->
+              </ng-template>
+            </ngb-tab>
+            <ngb-tab>
+              <ng-template ngbTabTitle><strong>Transportation</strong></ng-template>
+              <ng-template ngbTabContent>
+                <!--<ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-1">
+                  <ngb-panel>
+                    <ng-template ngbPanelTitle>
+                      <strong>Transportation</strong>
+                    </ng-template>
+                    <ng-template ngbPanelContent>-->
+                <div class="row">
+                  <div class="col-md-12 col-lg-12">
+                    <div class="mb-3">
+                      <label for="noOfFlights" class="form-label">How many flights do you take per year? (e.g. 10)</label>
+                      <input type="text" class="form-control" id="noOfFlights" formControlName="noOfFlights" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="ownCar" class="form-label">Do you own a car? (e.g. n | y)</label>
+                      <input type="text" class="form-control" id="ownCar" formControlName="ownCar" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="avgDistance" class="form-label">What is your average distance to commute to/from work in miles? (e.g. 10)</label>
+                      <input type="text" class="form-control" id="avgDistance" formControlName="avgDistance" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="publicTrans" class="form-label">Do you use public transportation? (e.g. y)</label>
+                      <input type="text" class="form-control" id="publicTrans" formControlName="publicTrans" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="publicShare" class="form-label">Do you use uber or another ride sharing platform like Lyft? (e.g. y)</label>
+                      <input type="text" class="form-control" id="publicShare" formControlName="publicShare" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="shareTrips" class="form-label">How many ride-sharing trips do you complete per month? (e.g. 10)</label>
+                      <input type="text" class="form-control" id="shareTrips" formControlName="shareTrips" aria-describedby="emailHelp">
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <!--</ng-template>
+              </ngb-panel>
+            </ngb-accordion>-->
+              </ng-template>
+            </ngb-tab>
+            <ngb-tab>
+              <ng-template ngbTabTitle><strong>Food</strong></ng-template>
+              <ng-template ngbTabContent>
+                <!--<ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-2">
+                  <ngb-panel>
+                    <ng-template ngbPanelTitle>
+                      <strong>Food</strong>
+                    </ng-template>
+                    <ng-template ngbPanelContent>-->
+                <div class="row">
+                  <div class="col-md-12 col-lg-12">
+                    <div class="mb-3">
+                      <label for="veg" class="form-label">Are you a vegetarian? (e.g. n)</label>
+                      <input type="text" class="form-control" id="veg"  formControlName="veg" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="noOfMeat" class="form-label">Do you eat meat more than 3 times each week? (e.g. y)</label>
+                      <input type="text" class="form-control" id="noOfMeat" formControlName="noOfMeat" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="amountSpent" class="form-label">How much money do you spend on Amazon per month in US rupees - for example, fifty rupees? (e.g. 150)</label>
+                      <input type="text" class="form-control" id="amountSpent" formControlName="amountSpent" aria-describedby="emailHelp">
+                    </div>
+                  </div>
+                </div>
+
+                <!--</ng-template>
+              </ngb-panel>
+            </ngb-accordion>-->
+              </ng-template>
+            </ngb-tab>
+
+          </ngb-tabset>
+        </div>
+
+        <div class="right mt-4 pb-4 pr-3 pl-3 btn-cls">
+          <button type="button" class="btn btn-primary" (click)="calculateCarbonFootPrint()">Calculate</button>
+        </div>
+      </div>
+
+
+    </div>
+  </form>
+  </div>
+
+  <div class="graph" [hidden]="!isShow">
+    <h3 class="graph-h3">Your Carbon Footprint Result:</h3>
+    <div class="graph-sec">
+
+      <div class="row" style="padding: 30px 30px 50px 30px">
+        <div class="col-md-6 col-lg-6">
+          <div id="container"></div>
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <div id="barchartcontainer"></div>
+        </div>
+      </div>
+
+      <div class="card rec">
+        <h3 class="rec-h3">Recommendations</h3>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card-body">
+              <h5 class="card-title">Home Energy</h5>
+              <ul>
+                <li>Collect climate data in the scientific community.</li>
+                <li>Take efforts to clean nature.</li>
+                <li>Reflect upon being a better climate citizen.</li>
+                <li>Collect and use clean energy like wind or solar power.</li>
+                <li>Make eco-friendly purchases.</li>
+                <li>Stop using plastic.</li>
+              </ul>
+
+            </div>
+          </div>
+          <div class="col-md-4" style="padding: 0;">
+            <div class="card-body">
+              <h5 class="card-title">Transportation & Electricity</h5>
+
+              <ul>
+                <li>Carpool with friends to/from work.</li>
+                <li>Exercise instead of uber to work.</li>
+                <li>Take fewer flights and/or reduce your own transportation.</li>
+                <li>Turn off your air conditioning unit and use less electricity when you can.</li>
+                <li>Turn off lights and unplug devices when you’re not using them.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card-body">
+              <h5 class="card-title">Food & General</h5>
+              <ul>
+                <li>Stay vegan.</li>
+                <li>Try to recycle and reduce waste when you can.</li>
+                <li>Plant trees or take care of plants in your house.</li>
+                <li>Buy local produce from farmers markets on weekends.</li>
+                <li>Post articles about climate change on social media platforms.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
